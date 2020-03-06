@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FuturaPTDemi.otf">
+            <string>FuturaPT-Demi</string>
+        </array>
+        <array key="FuturaPTMedium.otf">
+            <string>FuturaPT-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="contactCell" id="gTV-IL-0wX" customClass="ContactCell" customModule="livetrivia" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="325" height="55"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="325" height="55"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WtY-q7-gug">
+                        <rect key="frame" x="0.0" y="0.0" width="325" height="55"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qQh-va-wdi">
+                                <rect key="frame" x="239" y="15" width="70" height="25"/>
+                                <color key="backgroundColor" red="0.88235294119999996" green="0.41176470590000003" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="2Cx-gU-ve3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FuturaPT-Demi" family="Futura PT" pointSize="13"/>
+                                <state key="normal" title="INVITE">
+                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                </state>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile_avatar_one" translatesAutoresizingMaskIntoConstraints="NO" id="j6h-U7-Tey">
+                                <rect key="frame" x="8" y="5" width="45" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="45" id="KUq-X3-bcK"/>
+                                    <constraint firstAttribute="width" secondItem="j6h-U7-Tey" secondAttribute="height" multiplier="1:1" id="mgk-00-1EL"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kate Oscarlet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BQg-eS-MSs">
+                                <rect key="frame" x="68" y="14.5" width="159" height="26"/>
+                                <fontDescription key="fontDescription" name="FuturaPT-Medium" family="Futura PT" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="qQh-va-wdi" secondAttribute="trailing" constant="16" id="5AC-oO-tF1"/>
+                            <constraint firstItem="j6h-U7-Tey" firstAttribute="centerY" secondItem="WtY-q7-gug" secondAttribute="centerY" id="Zbd-hE-5G4"/>
+                            <constraint firstAttribute="bottom" secondItem="qQh-va-wdi" secondAttribute="bottom" constant="15" id="dda-jd-ALo"/>
+                            <constraint firstItem="BQg-eS-MSs" firstAttribute="leading" secondItem="j6h-U7-Tey" secondAttribute="trailing" constant="15" id="gfk-Au-kAP"/>
+                            <constraint firstItem="BQg-eS-MSs" firstAttribute="centerY" secondItem="WtY-q7-gug" secondAttribute="centerY" id="nny-ge-nNd"/>
+                            <constraint firstItem="qQh-va-wdi" firstAttribute="top" secondItem="WtY-q7-gug" secondAttribute="top" constant="15" id="s8M-oS-DPM"/>
+                            <constraint firstItem="qQh-va-wdi" firstAttribute="leading" secondItem="BQg-eS-MSs" secondAttribute="trailing" constant="12" id="tC4-18-RAw"/>
+                            <constraint firstItem="j6h-U7-Tey" firstAttribute="leading" secondItem="WtY-q7-gug" secondAttribute="leading" constant="8" id="vgD-FK-7mh"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="WtY-q7-gug" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="GGh-OG-AlI"/>
+                <constraint firstAttribute="bottom" secondItem="WtY-q7-gug" secondAttribute="bottom" id="RKO-6s-hX1"/>
+                <constraint firstAttribute="trailing" secondItem="WtY-q7-gug" secondAttribute="trailing" id="j12-ri-Zlm"/>
+                <constraint firstItem="WtY-q7-gug" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="oqB-B9-EzI"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="493" height="100"/>
+            <connections>
+                <outlet property="contactNameLabel" destination="BQg-eS-MSs" id="0e6-lI-GeP"/>
+                <outlet property="inviteButton" destination="qQh-va-wdi" id="J6M-AM-c3V"/>
+                <outlet property="profileImageView" destination="j6h-U7-Tey" id="PWe-TQ-qf1"/>
+            </connections>
+            <point key="canvasLocation" x="458.69565217391306" y="169.08482142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="profile_avatar_one" width="225" height="225"/>
+    </resources>
+</document>

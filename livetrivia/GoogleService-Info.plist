@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>869871452144-p519n8sl4et44h7232t2k34cmkiq3m2j.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.869871452144-p519n8sl4et44h7232t2k34cmkiq3m2j</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCe_tMognObbwgoert2RJnkC3wBkWDLSrg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>869871452144</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.colworx.livetrivia</string>
+	<key>PROJECT_ID</key>
+	<string>livetrivia-18a90</string>
+	<key>STORAGE_BUCKET</key>
+	<string>livetrivia-18a90.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:869871452144:ios:c8c85cfa5e4a802e13e735</string>
+	<key>DATABASE_URL</key>
+	<string>https://livetrivia-18a90.firebaseio.com</string>
+</dict>
+</plist>
